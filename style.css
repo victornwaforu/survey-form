@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h1, p, footer {
+    margin-top: 0;
+    color: snow;
+}
+
+form {
+    background-color: darkgreen;
+    color: white;
+    max-width: 690px;
+    margin: 40px auto;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    padding: 30px 20px;
+    
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.form-control input, .form-control select, .form-control textarea {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #777;
+    font-family: inherit;
+}
+
+.form-control select {
+    height: 35px;
+    font-size: inherit;
+}
+
+.form-control input[type="radio"], .form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color: lightgreen;
+    width: 100%;
+    display: block;
+    border: 1px solid lightgreen;
+    font-family: inherit;
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer;
+}
+textarea {
+    height: 150px;
+}
